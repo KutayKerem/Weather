@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/fragment_Home">
+    <fragment
+        android:id="@+id/fragment_Home"
+        android:name="com.kutaykerem.weather.view.Fragment_Home"
+        android:label="fragment__home"
+        tools:layout="@layout/fragment__home" />
+</navigation>
